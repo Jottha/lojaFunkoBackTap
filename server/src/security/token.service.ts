@@ -1,7 +1,8 @@
 import { MSG_ERROR_MISSING_AUTHORIZATION_IN_HEADERS } from '../../environments/messages.const';
 import { errorHandler } from './../utils/error.handler';
 import { ErrorModel } from './../utils/error.model';
-import { Request, Response } from 'express';
+import * as Request from 'express';
+import * as Response from 'express';
 import { Promise } from 'mongoose';
 import { Config } from './../../environments/environments';
 import * as jwt from 'jsonwebtoken';

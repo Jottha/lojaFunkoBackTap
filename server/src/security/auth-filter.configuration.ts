@@ -1,9 +1,11 @@
 import TokenService from './token.service';
 import { ErrorModel } from '../utils/error.model';
-import { Application } from 'express';
+import * as Application from 'express';
 import * as httpStatus from 'http-status';
 import * as jwt from 'jsonwebtoken';
-import { NextFunction, Request, Response } from "express";
+import * as NextFunction from "express";
+import * as Request from "express";
+import * as Response from "express";
 import { Config } from "../../environments/environments";
 import * as message from '../../environments/messages.const';
 
