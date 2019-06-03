@@ -6,8 +6,6 @@ import { Config } from '../../environments/environments';
 import DefaultRest from './default.rest';
 import AuthRest from '../rests/auth-access.rest';
 import UsuarioRest from '../rests/Pessoa/usuario.rest';
-import AcessorioRest from '../rests/Sistema/acessorio.rest';
-import AcessorioPublicaRest from './Sistema/acessorio.publica.rest';
 import ItemRest from './Sistema/item.rest';
 
 
@@ -15,7 +13,6 @@ export class RestModule {
 
     privateRoutes: Array<Rest> = [
         UsuarioRest,
-        AcessorioRest,
         ItemRest
     ];
 
@@ -23,7 +20,6 @@ export class RestModule {
         DefaultRest,
         AuthRest,
         
-        AcessorioPublicaRest,
         ItemRest
         
     ];
