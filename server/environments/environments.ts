@@ -3,15 +3,16 @@ import { prod } from './environment.prod';
 
 export const Config = {
 
-    API_NAME: 'Vidros Express',
+    API_NAME: 'Livraria',
     VERSION: '0.0.1',
     VERSION_URL: 'v1',
 
-    SECRET_KEY: 'vidroexpress',
+    SECRET_KEY: 'livraria',
     TOKEN_PREF: 'Bearer',
     TOKEN_HEADER: 'Authorization',
 
-    PROFILE: dev, // PROFILE: prod,
+    //PROFILE: dev,
+    PROFILE: prod,
     PORT: 3000,
     HOST: 'localhost'
 };
