@@ -1,4 +1,4 @@
-import { Application } from 'express';
+import * as Application from 'express';
 import { Rest } from './../interfaces/rest.interface';
 import { Route } from '../interfaces/route.interface';
 

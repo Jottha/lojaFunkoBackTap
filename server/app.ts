@@ -3,10 +3,10 @@ import * as express from 'express';
 import { json, urlencoded } from 'body-parser';
 import * as cors from 'cors';
 import { createServer, Server } from 'http';
-import { Application } from 'express';
+import * as Application from 'express';
 import DatabaseConfiguration from './config/database.configuration';
 import { RestModule } from './src/rests/rests';
-import * as CorsConfiguration from '../server/config';
+import * as CorsConfiguration from '../server/config/cors.configutration';
 
 export class App {
     

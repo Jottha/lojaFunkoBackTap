@@ -1,6 +1,5 @@
 export const prod = {
     NAME: 'prod',
-    DB_URI: '',
-    DB_USERNAME: '',
-    DB_PASSWORD: ''
+    DB_URI: mongodb+srv: deploy:<uploaddeploy>@cluster0-rvdns.mongodb.net/test?retryWrites=true&w=majority
+
 };

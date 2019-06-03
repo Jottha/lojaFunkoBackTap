@@ -11,6 +11,7 @@ import ResgisterDto from '../model/Pessoa/dtos/register.dto';
 import usuarioController from '../controller/Pessoa/usuarioController';
 import pessoaService from './Pessoa/pessoaService';
 import usuarioService from './Pessoa/usuarioService';
+import * as httpStatus from 'httpstatus';
 
 class AuthAccessservice {
     //Recebe um usuario ou retornar um error

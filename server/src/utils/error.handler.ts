@@ -1,5 +1,5 @@
 import { ErrorModel } from './error.model';
-import { Response } from 'express';
+import * as Response from 'express';
 
 export function errorHandler(errorModel: ErrorModel, response: Response) {
     console.error(`---------------------------------------------------------------------
